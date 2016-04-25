@@ -1,0 +1,224 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+.box-wrapper {
+  background: white;
+  border-bottom: 25px solid #C49C71;
+  box-shadow: 0 0 5px rgba(0,0,0,.4);
+  border-radius: 3px;
+
+  font-family: Montserrat, sans-serif;
+  color: #9b9b9b;
+
+  &.box-text {
+
+    .title {
+      text-transform: uppercase;
+      position: relative;
+      margin-bottom: 30px;
+      text-align: center;
+
+      h3 {
+        font-size: 15px;
+        color: #9b9b9b;
+        margin: 0;
+      }
+
+      h1 {
+        font-family: 'EB Garamond', serif;
+        font-weight: bold;
+        margin: 0;
+        font-size: 70px;
+        margin-bottom: 5px;
+        color: #555555;
+      }
+
+      .leaf {
+        position: absolute;
+        top: -10px;
+        width: 30px;
+        right: 10px;
+      }
+    }
+
+    p {
+      line-height: 2;
+      font-size: 13px;
+    }
+
+  }
+
+  &.box-main {
+    text-align: center;
+
+    .title {
+      text-transform: uppercase;
+      position: relative;
+      margin-bottom: 30px;
+
+      h3 {
+        font-size: 15px;
+        color: #9b9b9b;
+        margin: 0;
+      }
+
+      h1 {
+        font-family: 'EB Garamond', serif;
+        font-weight: bold;
+        margin: 0;
+        font-size: 70px;
+        margin-bottom: 5px;
+        color: #555555;
+      }
+
+      .leaf {
+        position: absolute;
+        top: -10px;
+        width: 30px;
+        right: 10px;
+      }
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #585858;
+      margin-bottom: 30px;
+    }
+
+    .details {
+      margin-bottom: 30px;
+    }
+
+    .apply {
+      border: 2px solid #cc9c6b;
+      border-radius: 3px;
+      color: #cc9c6b;
+      padding: 10px 20px;
+      background: transparent;
+      font-size: 18px;
+      font-family: Montserrat, sans-serif;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media screen and (min-width: $on-laptop) {
+  .box-wrapper {
+    position: absolute;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .box-wrapper.box-main {
+    position: absolute;
+    right: 10%;
+    padding: 70px 70px 40px;
+  }
+
+  .box-wrapper.box-text {
+    position: absolute;
+    left: 10%;
+    padding: 50px 30px 40px;
+  }
+}
+
+
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  background: #fff no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+$color-green: #296460;
+
+.navbar {
+  border-radius: 0 !important;
+  background: $color-green !important;
+  border: 0 !important;
+
+  .navbar-brand {
+    img {
+      width: 22px;
+    }
+  }
+
+  .navbar-nav li {
+    a {
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+      font-weight: normal;
+      color: #EEE !important;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &.active a {
+      color: white !important;
+      background: none !important;
+      font-weight: bold;
+    }
+  }
+}
