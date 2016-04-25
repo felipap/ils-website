@@ -1,6 +1,7 @@
 ---
 layout: boxy
-box-layout: 1
+box-layout: main
+name: index
 ---
 
 <div class="home-box">
@@ -17,7 +18,7 @@ box-layout: 1
 		November 11-13, 2016<br />
 		Hosted by Yale University
 	</div>
-	<button class="apply">
+	<a href="{{ "/apply.html" | prepend: site.baseurl }}" class="apply">
 		Apply
-	</button>
+	</a>
 </div>
