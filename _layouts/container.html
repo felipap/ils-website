@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="background" style="background-image: url({{ "/images/IMG-20150508-WA0012.jpg" | prepend: site.baseurl }})"></div>
+    <div class="background" style="background-image: url({{ "/images/IMG-20150508-WA0016.jpg" | prepend: site.baseurl }})"></div>
+
+    <div class="page-content">
+      <div class="container-wrapper box-text">
+        {{ content }}
+      </div>
+    </div>
+
+  </body>
+
+</html>

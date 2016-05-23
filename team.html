@@ -1,0 +1,48 @@
+---
+layout: container
+name: team
+---
+
+<div class="page-team">
+	<div class="title">
+		<h1>
+			Meet the Team
+			<img class="leaf" src="{{ "/images/leaf.png" | prepend: site.baseurl }}" />
+		</h1>
+	</div>
+
+	<section class="board">
+		<h2>Board of Directors</h2>
+
+		<ul class="row team-list">
+			{% for member in site.data.team.board %}
+			<li class="col-md-4">
+				<div class="picture">
+					<img src="{{ site.baseurl }}/images/pictures/{{ member.picture }}" />
+				</div>
+				<div class="name">{{ member.name }}</div>
+				<div class="position">{{ member.position }}</div>
+				<div class="bio">{{ member.bio }}</div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+	<section class="committee">
+		<h2>ILS Committee Members</h2>
+		<ul class="team-list">
+			{% for member in site.data.team.committee %}
+			<li>
+				<div class="picture">
+					<img src="{{ site.baseurl }}/images/pictures/{{ member.picture }}" />
+				</div>
+				<div class="name">{{ member.name }}</div>
+				<div class="position">{{ member.position }}</div>
+				<div class="bio">{{ member.bio }}</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</section>
+</div>

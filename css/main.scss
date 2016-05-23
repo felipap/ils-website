@@ -52,7 +52,7 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
-.box-wrapper {
+.box-wrapper, .container-wrapper {
   background: white;
   border-bottom: 25px solid #C49C71;
   box-shadow: 0 0 5px rgba(0,0,0,.4);
@@ -148,8 +148,53 @@ $on-laptop:        800px;
   }
 }
 
+.page-team {
+  h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  & > section {
+    margin-bottom: 20px;
+  }
+
+
+  .team-list > li {
+    list-style: none;
+    margin-bottom: 10px;
+
+    .picture {
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+      }
+      margin-bottom: 20px;
+    }
+
+    .name {
+    }
+
+    .position {
+      text-decoration: italic;
+    }
+
+    .bio {
+      font-weight: normal;
+      font-size: 13px;
+      color: #555;
+      font-family: "Helvetica Neue", sans-serif;
+    }
+  }
+}
+
+.container-wrapper {
+  padding: 40px;
+  position: relative;
+}
+
 @media screen and (max-width: $on-laptop) {
-  .box-wrapper {
+  .box-wrapper, .container-wrapper {
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 30px 40px 30px;
@@ -157,6 +202,11 @@ $on-laptop:        800px;
 }
 
 @media screen and (min-width: $on-laptop) {
+  .container-wrapper {
+    width: 960px;
+    margin: 70px auto;
+  }
+
   .box-wrapper {
     position: absolute;
     width: 500px;
