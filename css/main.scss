@@ -64,12 +64,12 @@ $color-green: #206964;
   color: #666;
   font-size: 15px;
 
-  &.box-text {
+  &.box-text, &.box-text2 {
 
     .title {
       text-transform: uppercase;
       position: relative;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       text-align: center;
 
       h1 {
@@ -93,8 +93,13 @@ $color-green: #206964;
     }
 
     p {
-      line-height: 2;
-      font-size: 14px;
+      line-height: 1.8;
+      font-size: 15px;
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
   }
@@ -262,13 +267,20 @@ $color-green: #206964;
   .box-wrapper.box-main {
     position: absolute;
     width: 450px;
-    right: 10%;
+    left: 10%;
     padding: 80px 70px 40px;
+  }
+
+  .box-wrapper.box-text2 {
+    position: absolute;
+    left: 10%;
+    width: 450px;
+    padding: 50px 40px 40px;
   }
 
   .box-wrapper.box-text {
     position: absolute;
-    left: 10%;
+    right: 10%;
     padding: 50px 40px 40px;
   }
 }
@@ -282,7 +294,7 @@ $color-green: #206964;
   right: 0;
   z-index: -1;
 
-  background: #fff no-repeat center center fixed; 
+  background: #fff no-repeat center top fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -324,6 +336,18 @@ $color-green: #206964;
       &:hover {
         color: #fff !important;
         text-decoration: none;
+      }
+    }
+
+    &.special {
+      background: rgba(0,0,0,.1);
+        a {
+          color: white !important;
+        }
+
+      transition: all .1s linear;
+      &:hover {
+        background: rgba(0,0,0,.2);
       }
     }
 

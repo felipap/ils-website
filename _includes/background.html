@@ -15,10 +15,12 @@
 {% endcomment %}
 
 <script>
-
   var bgs = {{ site.data.bgs | jsonify }};
-  var randIndex = Math.floor(Math.random()*bgs.length);
+{% if page.name == "index.html" %}
+  var randIndex = 0;
+{% else %}
+  var randIndex = Math.floor(Math.random()*(bgs.length-1))+1;
+{% endif %}
   document.write('<div class="background" style="background-image: url({{ site.baseurl }}'+bgs[randIndex].src+')"></div>');
   document.write('<div class="background-credits">picture by '+bgs[randIndex].credits+'</div>');
-
 </script>

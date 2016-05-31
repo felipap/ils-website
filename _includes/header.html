@@ -31,12 +31,10 @@
         <li {% if page.name == "contact.html" %}class="active"{% endif %}>
 					<a href="{{ "/contact.html" | prepend: site.baseurl }}">Contact</a>
 				</li>
-				<!--
         <li {% if page.name == "team.html" %}class="active"{% endif %}>
 					<a href="{{ "/team.html" | prepend: site.baseurl }}">Team</a>
 				</li>
-				-->
-        <li {% if page.name == "apply.html" %}class="active"{% endif %}>
+        <li class="special {% if page.name == "apply.html" %} active{% endif %}">
 					<a href="{{ "/apply.html" | prepend: site.baseurl }}" class="hg">Apply</a>
 				</li>
       </ul>
