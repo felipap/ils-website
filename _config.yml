@@ -9,7 +9,7 @@
 title: Ivy Leadership Summit 2016
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  The Ivy Council is a student-run organization of Ivy League student leaders dedicated to fostering future leadership domestically and globally. Each year, the Council hosts the Ivy Leadership Summit (ILS), a two-day conference that brings together students from the eight Ivy League universities along with leaders from the business, government, academic, and humanitarian sectors. The Summit’s mission is to promote the exchange of ideas between the student leaders and today’s world leaders on important issues such as the global economy, the role of higher education, the future of energy, and the world community.
+  Student-run organization of Ivy League student leaders dedicated to fostering future leadership domestically and globally. Each year, the Council hosts the Ivy Leadership Summit (ILS), a two-day conference that brings together students from the eight Ivy League universities along with leaders from the business, government, academic, and humanitarian sectors.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ivyleadershipsummit.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
