@@ -181,6 +181,63 @@ $color-green: #206964;
   }
 }
 
+.page-speakers {
+  h2 {
+    // font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  & > section {
+    margin-bottom: 20px;
+  }
+
+
+  .speakers-list > li {
+    list-style: none;
+    position: relative;
+
+    $img-size: 0;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    .picture {
+      overflow: hidden;
+      margin-bottom: 20px;
+      float: left;
+
+      div {
+        width: $img-size;
+        height: $img-size;
+        /*border-radius: $img-size;*/
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    }
+
+    .text {
+      position: relative;
+      padding-left: $img-size+20;
+    }
+
+    .name {
+      font-size: 1.2em;
+      margin-bottom: .5em;
+      color: #111;
+    }
+
+    .bio {
+      font-weight: normal;
+      font-size: 14px;
+      color: #666;
+    }
+  }
+}
+
 .page-team {
   h2 {
     font-size: 20px;
