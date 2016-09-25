@@ -1,0 +1,134 @@
+{
+	"plenary": [
+		{
+			"name": "Jennifer Staple-Clark",
+			"bio": "CEO and Founder of Unite for Sight, Yale College Class of 2003; Jennifer founded Unite for Sight as a sophomore at Yale and it has now become a leader in providing cost-effective eye care to the world's poorest."
+		}, {
+			"name": "Elisa Villanueva Beard",
+			"bio": "CEO of Teach for America. Under her leadership, Teach For America currently impacts more than 750,000 students in over 2,600 schools."
+		}
+	],
+
+	"globalhealth": [
+		{
+			"name": "Dr. Jennifer Klugman",
+			"bio": "Jeni Klugman is a senior adviser at the World Bank and a fellow at the Harvard Kennedy School's Women and Public Policy Program. Klugman was director of Gender & Development at the World Bank Group, where she served as lead spokesperson on gender equality issues, and was responsible for developing strategic directions to support the institution's gender and development priorities."
+		}, {
+			"name": "Shin Daimyo",
+			"bio": "Previous Clinical Program Officer/Program Manager for Mental Health at Partners in Health, currently studying psychiatric nursing at the Yale School of Nursing."
+		}, {
+			"name": "Diana Ayton-Shenker",
+			"bio": "Named one of “25 Leading Women Changing the World” by Good Business New York, Diana Ayton-Shenker is founder & CEO of Philanthropy & Social Impact Strategy firm, Global Momenta, and Director of Kick NYC, the business incubator for entrepreneurs."
+		}, {
+			"name": "Leith Greenslade",
+			"bio": "Leith Greenslade leads JustActions, a global campaign to mobilize action around ten initiatives with the power to accelerate progress to a more just world rapidly, sustainably and irreversibly. She is a proud member of the Every Woman, Every Child movement established by the United Nations Secretary General and has served as a Vice Chair with the MDG Health Alliance, a network of leaders committed to accelerating the achievement of global health goals."
+		}, {
+			"name": "Kevin Tyan",
+			"bio": "Co-Founder of Kinnos, a company creating a product working to empower our health workers to protect themselves and others, eliminate human error during decontamination, and prevent the unnecessary loss of life."
+		}
+	],
+
+	"technology": [
+		{
+			"name": "David Arabov",
+			"bio": "Co-Founder and CEO of Elite Daily."
+		}, {
+
+			"name": "Evan Loh",
+			"bio": "President and Cheif Medical Officer at Paratek Pharmaceuticals. Previously Dr. Loh served as Senior Vice President, Development and Strategic Operations, Worldwide Research and Development, at Pfizer Inc. "
+		}, {
+
+			"name": "Adam Pase",
+			"bio": "COO and Co-Founder of Notarize, the first on-demand remote, electronic notary public service valid in all 50 US states and the District of Columbia."
+		}, {
+
+			"name": "Joshin Raghubar",
+			"bio": " Founder of iKineo, a Pan-African customer engagement agency; Sprout, South Africa’s leading digital media performance firm; and Explore Sideways, a leading online purveyor of wine tourism experiences."
+		}, {
+
+			"name": "Wang Shuo",
+			"bio": "As co-founder and managing editor of Caixin, China’s leading business and finance media group, Wang Shuo focuses on providing high-quality news reports through leading an independent and professional standard in China. Under his leadership, the Caixin editorial team won the Shorenstein Journalism Award from Stanford University."
+		}, {
+
+			"name": "Ellen Su",
+			"bio": "Co-Founder and CEO at Wellinks a wearable health technology company dedicated to improving clinical outcomes through education and creation of good habits around treatment. "
+		}, {
+
+			"name": "Nate Segal",
+			"bio": "Senior Policy Advisor for Small Business Innovation at the White House Office of Science and Technology Policy."
+		}
+	],
+
+
+	"politicsactivism": [
+		{
+			"name": "Josh Lafazan",
+			"bio": "Youngest ever member of the Syosset School District Board of Education. Cornell Class of 2016. Current Master's student at the Harvard Graduate School of Education. "
+		}, {
+			"name": "Andrew Platt",
+			"bio": "Delegate in the Maryland House of Delegates. Member of the Ways and Means Committee. "
+		}, {
+			"name": "Lindy Li",
+			"bio": "Ran for US Congress in 6th District of Pennsylvania. "
+		}, {
+			"name": "Frank Rusa",
+			"bio": "Deputy Manager of the Deepening Democracy component of the Democratic Governance Facility (DGF) in Uganda"
+		}, {
+			"name": "Belabbes Benkredda",
+			"bio": "founder of the Munathara Initiative, the Arab world’s largest online and television debate forum highlighting voices of youth, women and marginalized communities"
+		}, {
+			"name": "Caroline Smith",
+			"bio": "Team member at SeeClickFix, a communications platform for citizens to report non-emergency issues, and governments to track, manage, and reply"
+		}
+	],
+
+
+	"education": [
+		{
+			"name": "Jerelyn Rodriguez",
+			"bio": "Co-Founder and CEO of the Knowledge House. By creating local technology programs, in and outside of the classroom, The Knowledge House offers alternative pathways for disconnected young adults, while preventing youth disconnection for high school students."
+		}, {
+			"name": "Milagros Nores",
+			"bio": " Associate Director of Research at National Institute for Early Education Research, specializing in early childhood attainment, the economics of education, poverty, and international and comparative education."
+		}, {
+			"name": "Zak Malamed",
+			"bio": "founder and Executive Director of Student Voice, a for-students by-students nonprofit that leads the movement to make sure every student has a voice in shaping their education and communities."
+		}, {
+			"name": "Anuradha Das Mathur",
+			"bio": "Founding Dean at The Vedica Scholars Programme for Women, an 18-month residential program in management practice for young women in Delhi, India. "
+		}, {
+			"name": "Joyce Meng",
+			"bio": "Co-Founder of Givology, an online giving marketplace for education that connects individual donors with grassroots education projects and student scholarships"
+		}
+	],
+
+
+	"entrepreneurship": [
+		{
+			"name": "Henrik Zilmer",
+			"bio": "a serial entrepreneur, first lieutenant, Y Combinator alumnus, former Rocket Internet exec and the founder and CEO of AirHelp. "
+		}, {
+			"name": "April Koh",
+			"bio": "Co-founder of Spylight and Spring. Led Spylight to raising $5M in Series-A funding. Yale alum."
+		}, {
+			"name": "Ben Locke",
+			"bio": "Founder of Invertebrate Records, a company aiming to rethink the idea of a record label. Creator of Summer's End Music Festival. Current student at NYU."
+		}, {
+			"name": "Theresa Krier",
+			"bio": "Founder of BigTNYC, the world's first couture tea label. "
+		}
+	],
+
+	"workshopleaders": [
+		{
+			"name": "Sam Daley-Harris",
+			"bio": "Founder of RESULTS, a company identifying and advocating for effective solutions to the causes of poverty; Founder of Center for Citizen Empowerment and Transformation, helping organizations more deeply engage their supporters for more effective grassroots action."
+		}, {
+			"name": "Patti Russo",
+			"bio": "Executive Director at Yale Women's Campaign School, a leadership program working to increase the number and influence of women in elected and appointed office. "
+		}, {
+			"name": "Nancy Schess",
+			"bio": "Partner at Klein Zelman Rothermel Jacobs & Schess and Co-Founder of Gotham City Networking."
+		}
+	]
+}

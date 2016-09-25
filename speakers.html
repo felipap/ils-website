@@ -1,0 +1,125 @@
+---
+layout: container
+name: speakers
+---
+
+<div class="page-speakers">
+	<div class="title">
+		<h1>
+			Meet the speakers
+			<img class="leaf" src="{{ "/images/leaf.png" | prepend: site.baseurl }}" />
+		</h1>
+	</div>
+
+	<section class="">
+		<h2>Plenary panel</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.plenary %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+
+	<section class="">
+		<h2>Global health break-out session</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.globalhealth %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+
+	<section class="">
+		<h2>Technology break-out</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.technology %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+
+	<section class="">
+		<h2>Education break-out</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.education %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+	<section class="">
+		<h2>Entrepreneurship break-out</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.entrepreneurship %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+	<section class="">
+		<h2>Workshop leaders</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.workshopleaders %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+</div>
