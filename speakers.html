@@ -9,11 +9,31 @@ name: speakers
 			Meet the speakers
 			<img class="leaf" src="{{ "/images/leaf.png" | prepend: site.baseurl }}" />
 		</h1>
-		<h3>More Speakers are in the process of being invited. This page will be updated periodically.</h3>
+		<br />
+		<h4><strong>More Speakers are in the process of being invited. This page will be updated periodically.</strong></h4>
 	</div>
+	<br />
 
 	<section class="">
-		<h2>Plenary panel</h2>
+		<h2>Keynote Speakers and Special Guests</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.keynotes %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+	<section class="">
+		<h2>Plenary</h2>
 		<h3></h3>
 
 		<ul class="row speakers-list">
@@ -32,7 +52,7 @@ name: speakers
 
 
 	<section class="">
-		<h2>Global health break-out session</h2>
+		<h2>Global health</h2>
 		<h3></h3>
 
 		<ul class="row speakers-list">
@@ -51,7 +71,7 @@ name: speakers
 
 
 	<section class="">
-		<h2>Technology break-out session</h2>
+		<h2>Technology</h2>
 		<h3></h3>
 
 		<ul class="row speakers-list">
@@ -70,7 +90,7 @@ name: speakers
 
 
 	<section class="">
-		<h2>Education break-out session</h2>
+		<h2>Education</h2>
 		<h3></h3>
 
 		<ul class="row speakers-list">
@@ -88,7 +108,7 @@ name: speakers
 	</section>
 
 	<section class="">
-		<h2>Entrepreneurship break-out session</h2>
+		<h2>Entrepreneurship</h2>
 		<h3></h3>
 
 		<ul class="row speakers-list">

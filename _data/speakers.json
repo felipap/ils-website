@@ -1,4 +1,20 @@
 {
+	"keynotes": [
+		{
+			"name": "Henry Blodget",
+			"bio": "Co-founder and CEO of Business Insider"
+		}, {
+			"name": "Catherine Russell",
+			"bio": "US Ambassador-at-large for Global Women's Issues"
+		}, {
+			"name": "Heather Anderson",
+			"bio": "Vice President of Programs from the Global Health Corps"
+		}, {
+			"name": "Jonathan Holloway",
+			"bio": "Dean of Yale College"
+		}
+	],
+
 	"plenary": [
 		{
 			"name": "Jennifer Staple-Clark",
