@@ -90,6 +90,24 @@ name: speakers
 
 
 	<section class="">
+		<h2>Politics &amp; Activism</h2>
+		<h3></h3>
+
+		<ul class="row speakers-list">
+			{% for member in site.data.speakers.politicsactivism %}
+			<li class="col-md-12">
+		        <div class="text">
+		          <div class="name">{{ member.name }}</div>
+		          <div class="bio">{{ member.bio }}</div>
+		        </div>
+			</li>
+			{% endfor %}
+		</ul>
+		<ul>
+		</ul>
+	</section>
+
+	<section class="">
 		<h2>Education</h2>
 		<h3></h3>
 
