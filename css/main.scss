@@ -177,6 +177,12 @@ $color-green: #206964;
 
       text-decoration: none;
       text-transform: uppercase;
+
+      &.disabled {
+        border: none;
+        cursor: not-allowed;
+
+      }
     }
   }
 }
