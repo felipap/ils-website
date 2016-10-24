@@ -54,25 +54,25 @@
 			"picture": "sullivan.jpg"
 		},
 		{
-			"name": "Jiaqi Liu",
-			"position": "Housing Director",
-			"bio": "Jiaqi is a (rising?) junior from Philadelphia majoring in Economics.  She is incredibly excited to serve as the director of the Housing Committee.  Jiaqi decided to join ILS because it is a great opportunity to meet new people from different schools as well as to hear from wonderful leaders in our society.  On campus, she is also a team leader for the Incoming Global Talent committee for AIESEC, a Co-Coordinator for CASPY and serves on TAS board.",
-			"picture": "liu.jpg"
-		},
-		{
 			"name": "Farah Al Hadid",
 			"position": "Accommodations Director",
 			"bio": "Farah is a junior in Jonathan Edwards College. She comes to Yale from Amman, Jordan, where she was born and raised. Farah is a Political Science major and a Global Health fellow; her course of study is focused on the economic and social development of countries around the world. At Yale, Farah is a teacher for YIRA’s outreach program, Hemispheres, which brings New Haven high school students to Yale to learn about global affairs and current events every week. She is also the Outreach Director on the board of the Yale Leadership Institute. Finally, she is one of the co-presidents for the Arab Students’ Association. Farah is really excited for ILS! She is looking forward to all the interesting speakers and thoughtful conversations. She is the Accommodations Director.",
 			"picture": "hadid.jpg"
 		},
 		{
-			"name": "Katherine Lin",
-			"position": "Logistics Director",
-			"bio": "",
-			"picture": "lin.jpg"
+			"name": "Felipe Pires",
+			"position": "Website Director",
+      "bio": "Felipe is a sophomore in Ezra Stiles college, majoring in Computer Science and Economics. At Yale, he is part of the Brazil Club and the Yale Computer Society. He is happy to be helping out with the ILS website.",
+			"picture": "felipe.png"
 		}
 	],
 	"committee": [{
+			"name": "Jiaqi Liu",
+			"position": "Housing Commitee",
+			"bio": "Jiaqi is a (rising?) junior from Philadelphia majoring in Economics.  She is incredibly excited to serve as the director of the Housing Committee.  Jiaqi decided to join ILS because it is a great opportunity to meet new people from different schools as well as to hear from wonderful leaders in our society.  On campus, she is also a team leader for the Incoming Global Talent committee for AIESEC, a Co-Coordinator for CASPY and serves on TAS board.",
+			"picture": "liu.jpg"
+		},
+		{
 			"name": "Jared Andrew Michaud",
 			"position": "Applications Committee",
 			"bio": "Jared Andrew Michaud is from northern Maine and is studying theater and education at Yale.  He sings with the Yale Glee Club and also tries to be funny in a comedy group called The Odd Ducks.  He loves getting involved with New Haven, serving as an Urban Fellow through Yale's Dwight Hall Center for Public Service and Social Justice.  Jared is serving on the Admissions Committee for ILS and is super excited to collaborate to make a change with students from all of the Ivies!",
@@ -107,24 +107,6 @@
 			"position": "Applications Committee",
 			"bio": "Tran is a sophomore from Texas majoring in Political Science with a concentration in Education Studies. For ILS, she is on the applications committee and is super excited about having the opportunity to listen to the ideas of future leaders and global-changers - that is, the delegates from the other colleges!",
 			"picture": "le.jpg"
-		},
-		{
-			"name": "Chelsea Guo",
-			"position": "Content Committee",
-			"bio": "Chelsea hails from the sunny, vibrant city of Nashville, TN. She's super excited to plan out the content of the ILS conference and help attendees turn their passions into real plans. She's a sophomore at Yale double majoring in Molecular, Cellular, and Developmental Biology and Political Science. She is hoping to get a joint B.S./M.S. degree by the end of college and go to law school afterwards to study healthcare law. Aside from ILS, she is the house manager at the Asian American Cultural Center, the Business Director of the Women's Leadership Initiative, the Panhellenic Officer of Kappa Kappa Gamma, an intern at the Bridgeport Public Defender's Office, and a summer tour guide for the Yale Admissions Office.",
-			"picture": "guo.jpg"
-		},
-		{
-			"name": "Emma Dinh",
-			"position": "Logistics Committee",
-			"bio": "Emma is excited to work with a wonderful team to put up a great conference that will inspire and create positive change. Emma is sophomore in Morse planning to major in Economics. On campus, she organizes events with the Vietnamese Students Association, mentors high school students with New Haven REACH and ReadySetLaunch, and does nonprofit consulting work with Net Impact.",
-			"picture": "dinh.jpg"
-		},
-		{
-			"name": "Felipe Pires",
-			"position": "Website Committee",
-      "bio": "Felipe is a sophomore in Ezra Stiles college, majoring in Computer Science and Economics. At Yale, he is part of the Brazil Club and the Yale Computer Society. He is happy to be helping out with the ILS website.",
-			"picture": "felipe.png"
 		}
 	]
 }
