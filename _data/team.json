@@ -62,13 +62,14 @@
 		{
 			"name": "Felipe Pires",
 			"position": "Website Director",
-      "bio": "Felipe is a sophomore in Ezra Stiles college, majoring in Computer Science and Economics. At Yale, he is part of the Brazil Club and the Yale Computer Society. He is happy to be helping out with the ILS website.",
+      			"bio": "Felipe is a sophomore in Ezra Stiles college, majoring in Computer Science and Economics. At Yale, he is part of the Brazil Club and the Yale Computer Society. He is happy to be helping out with the ILS website.",
 			"picture": "felipe.png"
 		},
 		{
 			"name": "Michelle Santos",
 			"position": "Housing Director",
-			"bio": "Michelle Santos is a math and economics major and is excited to work with the housing committee to get to know other committee members and learn more about the ILS conference. During the school year she works with the Globalist as a writer and member of the business team and is also part of the Yale Undergraduate Diversified Investments club. Her hometown is Chicago, and she is a member of the class of 2019 Ezra Stiles College."
+			"bio": "Michelle Santos is a math and economics major and is excited to work with the housing committee to get to know other committee members and learn more about the ILS conference. During the school year she works with the Globalist as a writer and member of the business team and is also part of the Yale Undergraduate Diversified Investments club. Her hometown is Chicago, and she is a member of the class of 2019 Ezra Stiles College.", 
+			"picture": "santos.png"
 		}
 	],
 	"committee": [
