@@ -153,6 +153,23 @@ $color-green: #206964;
       }
     }
 
+    .video-btn {
+      margin-top: 30px;
+
+      border: 2px solid $color-beige;
+      border-radius: 4px;
+      color: $color-beige;
+      padding: 10px 20px;
+      background: transparent;
+      font-size: 15px;
+      font-family: 'EB Garamond', serif;
+      font-weight: bold;
+      letter-spacing: 1px;
+
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
     .subtitle {
       font-size: 15px;
       color: #585858;
@@ -161,17 +178,17 @@ $color-green: #206964;
     }
 
     .details {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     .apply {
       border: 2px solid $color-beige;
       border-radius: 4px;
-      color: $color-beige;
+      color: #666;
       padding: 10px 20px;
       background: transparent;
-      font-size: 18px;
-      font-family: 'EB Garamond', serif;
+      font-size: 15px;
+      // font-family: 'EB Garamond', serif;
       font-weight: bold;
       letter-spacing: 1px;
 
@@ -180,6 +197,7 @@ $color-green: #206964;
 
       &.disabled {
         border: none;
+        text-transform: capitalized;
         cursor: not-allowed;
 
       }
@@ -241,6 +259,13 @@ $color-green: #206964;
       font-size: 14px;
       color: #666;
     }
+  }
+}
+
+.page-sponsors {
+  img {
+    margin-bottom: 20px;
+    max-width: 400px;
   }
 }
 
@@ -312,6 +337,7 @@ $color-green: #206964;
   position: relative;
 }
 
+
 @media screen and (max-width: $on-laptop) {
   .box-wrapper, .container-wrapper {
     margin-top: 40px;
@@ -319,6 +345,10 @@ $color-green: #206964;
     padding: 30px 40px 30px;
     border-radius: 0;
     font-size: 12px;
+
+    iframe {
+      // margin: 20px -40px 0;
+    }
   }
 
   .page-team .team-list > li {
@@ -330,6 +360,51 @@ $color-green: #206964;
       padding-left: 0;
     }
   }
+}
+
+
+.ilsvideo {
+  position: fixed;
+  background: rgba(0,0,0, .8);
+  z-index: 10000;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: none;
+
+  .frame {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 25%;
+
+    .close-btn {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      right: 0;
+      top: 0;
+      margin-right: -20px;
+      margin-top: -20px;
+
+      text-align: center;
+      line-height: 26px;
+      border-radius: 30px;
+      background: white;
+
+      cursor: pointer;
+
+      &:after {
+        content: '×';
+        font-size: 23px;
+      }
+    }
+
+    iframe {
+      border-radius: 4px;
+    }    
+  }
+
 }
 
 @media screen and (min-width: $on-laptop) {
